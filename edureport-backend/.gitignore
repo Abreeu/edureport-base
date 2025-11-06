@@ -33,13 +33,6 @@ build/
 .vscode/
 
 ### Env / Secrets ###
-.env
-.env.local
-secrets/
-*.pem
-*.key
-
-### Env / Secrets ###
 *.log
 
 # Docker
