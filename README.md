@@ -50,9 +50,9 @@ cd PASTA
 
 ### Backend (Java)
 
-2. Configure o arquivo `src/main/resources/application.properties`:
+2. Configure o arquivo `src/main/resources/env`:
 ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/ARQUIVO
+spring.datasource.url=jdbc:postgresql://localhost:5432/Database
 spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
 spring.jpa.hibernate.ddl-auto=update
@@ -89,7 +89,7 @@ npm install
 ```env
 VITE_BASE_URL=http://localhost:8080/api OU VERIFICAR SE ESTÁ VISIVEL O ENV .
 
-Por questões de praticidade a api está liberada.
+Neste projeto, as variáveis de ambiente estão liberadas no repositório para facilitar a configuração e execução local.
 ```
 
 4. Inicie o servidor de desenvolvimento:
@@ -167,7 +167,7 @@ Este projeto foi desenvolvido por:
     </td>
     <td align="center">
       <a href="https://github.com/Froener">
-        <img src="https://github.com/usuario1.png" width="100px;" alt="Foto Desenvolvedor 3"/><br>
+        <img src="https://avatars.githubusercontent.com/u/198973890?v=4" width="100px;" alt="Foto Desenvolvedor 3"/><br>
         <sub>
           <b>Henrique Froener</b>
         </sub>
